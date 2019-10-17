@@ -1,4 +1,6 @@
-# IndonesianAncestorStatues
+# Indonesian Ancestor Statues
+
+![preview](https://github.com/lennartdeknikker/frontend-applications/blob/master/wiki-resources/design/ontwerp4.png)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.9.
 
