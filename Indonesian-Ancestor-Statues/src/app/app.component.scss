@@ -1,0 +1,25 @@
+$c1: #ffffff;
+$c2:#c1eae8;
+$c3: #00aaa0;
+$c4:#00827b;
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+.header-message-block {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    color: $c3;
+    font-weight: bold;
+}
+
+.logo {
+    max-width: 12rem;
+    min-width: 5rem;
+    width: 10%;
+}
