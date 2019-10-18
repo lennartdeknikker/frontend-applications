@@ -3,10 +3,16 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { StatueDetailComponent } from './statue-detail/statue-detail.component';
+import { StatueListComponent } from './statue-list/statue-list.component';
+import { LocationsMapComponent } from './locations-map/locations-map.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    StatueDetailComponent,
+    StatueListComponent,
+    LocationsMapComponent
   ],
   imports: [
     BrowserModule,

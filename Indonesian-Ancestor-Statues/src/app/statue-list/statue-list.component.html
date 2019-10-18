@@ -1,0 +1,7 @@
+<h2>STATUE LIST</h2>
+<ul>
+    <li *ngFor="let statue of statues" (click)="onSelect(statue)">
+        {{statue.title}}
+    </li>
+</ul>
+<app-statue-detail [statue]="selectedStatue" ></app-statue-detail>
