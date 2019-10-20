@@ -5,4 +5,5 @@ export class Statue {
     imageLink: string;
     extent: string
     creationDate: string;
+    location: string;
 }

@@ -10,7 +10,7 @@ import { STATUES } from '../mock-statues';
 export class StatueListComponent implements OnInit {
 
   statues = STATUES;
-  selectedStatue: Statue = STATUES[0];
+  selectedStatue: Statue;
 
   constructor() { }
 

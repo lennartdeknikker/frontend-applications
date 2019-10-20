@@ -1,0 +1,80 @@
+$font-stack:    Montserrat, Helvetica, sans-serif;
+
+$c1: #ffffff;
+$c2:#c1eae8;
+$c3: #00aaa0;
+$c4:#00827b;
+
+main {
+    display: flex;
+    height: 100%;
+    flex-wrap: wrap;
+}
+
+.statues-panel {
+    width: 25%;
+    background-color: $c3;
+    height: 100%;
+    padding: 1rem;
+    box-sizing: border-box;
+    min-width: 22rem;
+}
+
+.detail-panel {
+    width: 75%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    box-sizing: border-box;
+    min-width: 22rem;
+}
+
+app-statue-detail {
+    background-color: $c3;
+    box-sizing: border-box;
+    color: white;
+    padding: 1rem;
+    height: 100%;
+}
+
+h2, h3, ul {
+    font-family: $font-stack;
+    color: $c1;
+}
+
+h2 {
+    text-align: center;
+    margin: 0;
+}
+
+h3 {
+    text-align: center;
+    margin: 0 0 1em 0;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    min-width: 4rem;
+    width: 30%;
+    margin: .3rem;
+    border: .2rem solid white;
+    box-sizing: border-box;
+}
+
+.selected-li {
+    border: .2rem solid $c4;
+}
+
+img {
+    width: 100%;
+}

@@ -1,3 +1,33 @@
 img {
-    width: 5em;
+    width: 50%;
+    min-width: 20rem;
+}
+
+h2 {
+    margin: 0;
+}
+
+h3 {
+    font-weight: 500;
+    margin: 0.2rem 0;
+}
+
+h4 {
+    margin: 0;
+    font-weight: 300;
+}
+
+.picture-and-description {
+    display: flex;
+    flex-wrap: wrap;
+    min-width: 20rem;
+    margin-top: 1rem;
+    align-items: center;
+}
+
+p {
+    min-width: 20rem;
+    width: 40%;
+    margin: 0 3rem;
+    box-sizing: border-box;
 }

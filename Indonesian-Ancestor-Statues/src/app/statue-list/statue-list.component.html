@@ -1,7 +1,14 @@
-<h2>STATUE LIST</h2>
-<ul>
-    <li *ngFor="let statue of statues" (click)="onSelect(statue)">
-        {{statue.title}}
-    </li>
-</ul>
-<app-statue-detail [statue]="selectedStatue" ></app-statue-detail>
+<main>
+    <div class="statues-panel">
+        <h2>{{statues[0].location}}</h2>
+        <h3>Ancestor Statues</h3>
+        <ul>
+            <li *ngFor="let statue of statues" [class.selected-li]="statue === selectedStatue" (click)="onSelect(statue)">
+                <img src="{{statue.imageLink}}" alt="{{statue.title}}">
+            </li>
+        </ul>
+    </div>
+    <div class="detail-panel">    
+        <app-statue-detail *ngIf="selectedStatue" [statue]="selectedStatue" ></app-statue-detail>
+    </div>
+</main>

@@ -4,9 +4,11 @@ $c3: #00aaa0;
 $c4:#00827b;
 
 header {
+    background-color: white;
     display: flex;
     justify-content: space-between;
     padding: 1rem;
+    min-width: 20rem;
 }
 
 .header-message-block {
@@ -16,6 +18,7 @@ header {
     width: 100%;
     color: $c3;
     font-weight: bold;
+    padding-left: 1rem;
 }
 
 .logo {
