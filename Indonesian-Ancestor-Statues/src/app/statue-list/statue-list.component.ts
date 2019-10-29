@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 import { Statue } from '../statue';
 import { STATUES } from '../mock-statues';
 
@@ -8,6 +8,8 @@ import { STATUES } from '../mock-statues';
   styleUrls: ['./statue-list.component.scss']
 })
 export class StatueListComponent implements OnInit {
+
+  @Input("location") selectedLocation : string;
 
   statues = STATUES;
   selectedStatue: Statue;

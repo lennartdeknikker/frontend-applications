@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
   selector: 'app-locations-map',
@@ -7,9 +7,18 @@ import { Component, OnInit } from '@angular/core';
 })
 export class LocationsMapComponent implements OnInit {
 
+  @Input("locationsList") locations: object;
+  @Input("statuesList") statues: object;
+
+  selectedLocation;
+
   constructor() { }
 
   ngOnInit() {
+  }
+
+  onSelect(location): void{
+    this.selectedLocation = location;
   }
 
 }

@@ -1,6 +1,6 @@
 <main>
     <div class="statues-panel">
-        <h2>{{statues[0].location}}</h2>
+        <h2>{{selectedLocation}}</h2>
         <h3>Ancestor Statues</h3>
         <ul>
             <li *ngFor="let statue of statues" [class.selected-li]="statue === selectedStatue" (click)="onSelect(statue)">
