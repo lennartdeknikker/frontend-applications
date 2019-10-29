@@ -1,6 +1,7 @@
 <div class="mock-map">
+        <ul>
+            <li *ngFor="let location of locations" (click)="onSelect(location)" [class.selected-location-li]="location === selectedLocation">{{location}}</li>
+        </ul>
 <app-statue-list *ngIf="selectedLocation" [location]="selectedLocation"></app-statue-list>
-<ul>
-    <li *ngFor="let location of locations" (click)="onSelect(location)">{{location}}</li>
-</ul>
+
 </div>

@@ -8,7 +8,7 @@
             </li>
         </ul>
     </div>
-    <div *ngIf="selectedStatue" class="detail-panel">    
-        <app-statue-detail [statue]="selectedStatue" ></app-statue-detail>
+    <div class="detail-panel">    
+        <app-statue-detail *ngIf="selectedStatue" [statue]="selectedStatue" ></app-statue-detail>
     </div>
 </main>
