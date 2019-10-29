@@ -3,7 +3,7 @@
         <h2>{{selectedLocation}}</h2>
         <h3>Ancestor Statues</h3>
         <ul>
-            <li *ngFor="let statue of statues" [class.selected-li]="statue === selectedStatue" (click)="onSelect(statue)">
+            <li *ngFor="let statue of statues" [class.selected-li]="statue === selectedStatue" [class.li-not-relevant]="statue.placeName.value != selectedLocation" (click)="onSelect(statue)">
                 <img src="{{statue.imageLink.value}}" alt="{{statue.title.value}}">
             </li>
         </ul>
