@@ -1,7 +1,6 @@
 import { Component, OnInit, Input } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { Statue } from '../statue';
-import { STATUES } from '../mock-statues';
 
 @Component({
   selector: 'app-statue-list',
