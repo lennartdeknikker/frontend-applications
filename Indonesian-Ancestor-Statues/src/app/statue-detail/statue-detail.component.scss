@@ -1,6 +1,6 @@
 img {
-    width: 50%;
-    min-width: 20rem;
+    max-height: 25rem;
+    max-width: 25rem;
 }
 
 h2 {
@@ -22,7 +22,6 @@ h4 {
     flex-wrap: wrap;
     min-width: 20rem;
     margin-top: 1rem;
-    align-items: center;
 }
 
 p {
@@ -30,4 +29,6 @@ p {
     width: 40%;
     margin: 0 3rem;
     box-sizing: border-box;
+    display: flex;
+    align-items: center;
 }

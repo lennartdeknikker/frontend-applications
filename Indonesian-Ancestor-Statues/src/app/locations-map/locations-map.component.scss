@@ -1,8 +1,16 @@
+$font-stack:    Montserrat, Helvetica, sans-serif;
+
+$c1: #ffffff;
+$c2:#c1eae8;
+$c3: #00aaa0;
+$c4:#00827b;
+
 .mock-map {
     align-items: center;
     background: url("../../assets/map\ indonesia.png");
     display: flex;
-    height: 91vh;
+    justify-content: space-between;
+    height: 90vh;
     width: 100%;
 }
 
@@ -12,4 +20,24 @@ app-statue-list {
 
 select {
     height: 2em;
+}
+
+ul {
+    min-width: 20rem;
+    height: 100%;
+    list-style-type: none;
+    background-color: $c3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: 500;
+    padding: 0;
+}
+
+li {
+    padding: 0;
+    cursor: pointer;
+    margin: .5rem 0;
 }
