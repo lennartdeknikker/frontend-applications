@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { StatueDetailComponent } from './statue-detail/statue-detail.component';
 import { StatueListComponent } from './statue-list/statue-list.component';
 import { LocationsMapComponent } from './locations-map/locations-map.component';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { LocationsMapComponent } from './locations-map/locations-map.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

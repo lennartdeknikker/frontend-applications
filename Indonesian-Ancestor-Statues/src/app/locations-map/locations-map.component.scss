@@ -1,5 +1,15 @@
 .mock-map {
+    align-items: center;
     background: url("../../assets/map\ indonesia.png");
+    display: flex;
     height: 91vh;
     width: 100%;
+}
+
+app-statue-list {
+    height: 100%;
+}
+
+select {
+    height: 2em;
 }
