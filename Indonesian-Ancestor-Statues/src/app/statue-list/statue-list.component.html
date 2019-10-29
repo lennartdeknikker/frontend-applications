@@ -4,7 +4,7 @@
         <h3>Ancestor Statues</h3>
         <ul>
             <li *ngFor="let statue of statues" [class.selected-li]="statue === selectedStatue" (click)="onSelect(statue)">
-                <img src="{{statue.imageLink}}" alt="{{statue.title}}">
+                <img src="{{statue.imageLink.value}}" alt="{{statue.title.value}}">
             </li>
         </ul>
     </div>

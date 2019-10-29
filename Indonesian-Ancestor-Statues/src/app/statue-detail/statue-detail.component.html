@@ -1,11 +1,11 @@
 <div *ngIf="statue">
-    <h2>{{statue.title}}</h2>
-    <h3>{{statue.creationDate}}</h3>
-    <h4>{{statue.extent}}</h4>
+    <h2>{{statue.title.value}}</h2>
+    <h3>{{statue.creationDate.value}}</h3>
+    <h4>{{statue.extent.value}}</h4>
     <div class="picture-and-description">
-        <img class="detail-picture" src="{{statue.imageLink}}" alt="">
+        <img class="detail-picture" src="{{statue.imageLink.value}}" alt="statue.title.value">
         <p>
-            {{statue.description}}
+            {{statue.description.value}}
         </p>
     </div>
 </div>
