@@ -1,9 +1,9 @@
 export class Statue {
-    id: number;
-    title: string;
-    description: string;
-    imageLink: string;
-    extent: string
-    creationDate: string;
-    location: string;
+    id: any;
+    title: any;
+    description: any;
+    imageLink: any;
+    extent: any;
+    creationDate: any;
+    location: any;
 }
