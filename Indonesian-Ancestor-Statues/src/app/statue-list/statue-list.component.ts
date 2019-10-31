@@ -14,6 +14,7 @@ export class StatueListComponent implements OnInit {
   @Input("location") selectedLocation : string;
 
   statues = [];
+  statuesList = [];
   selectedStatue: Statue;
 
   constructor(private http: HttpClient) {
@@ -25,13 +26,28 @@ export class StatueListComponent implements OnInit {
           this.statues.push(object);
       });
       console.log(this.statues);
+      this.showCorrespondingStatues();
     })}
 
   ngOnInit() {
   }
 
+  ngOnChanges() {
+    this.showCorrespondingStatues();
+  }
+
   onSelect(statue: Statue): void {
     this.selectedStatue = statue;
   }
+
+showCorrespondingStatues() {
+  let statuesListNew = [];
+    this.statues.forEach(statue => {
+      if (statue.placeName.value == this.selectedLocation) {
+        statuesListNew.push(statue);
+      }
+    });
+    this.statuesList = statuesListNew;
+}
 
 }
