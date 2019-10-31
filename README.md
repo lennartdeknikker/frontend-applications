@@ -1,8 +1,7 @@
 # Indonesian Ancestor Statues Application
-
 This application is made as an assignment for the course Frontend Applications for [Communication & Multimedia Design](https://www.cmd-amsterdam.nl/english/) at the University of Applied Sciences in Amsterdam. In cooperation with the [Museum of Volkenkunde](https://www.volkenkunde.nl/en), the assignment entails building an application that makes use of their newly published collection database using [Angular](https://angular.io/) as a framework. 
 
-This application will show all their Indonesian Ancestor Statues and information about those. Check out the [wiki](https://github.com/lennartdeknikker/frontend-applications/wiki/Application-design) for more pictures of the initial product design and additional information on the building process and featured components.
+The application will show all their Indonesian Ancestor Statues and information about those. Check out the [wiki](https://github.com/lennartdeknikker/frontend-applications/wiki/Application-design) for more pictures of the initial product design and additional information on the building process and featured components.
 
 ![preview](https://github.com/lennartdeknikker/frontend-applications/blob/master/wiki-resources/design/ontwerp4.png)
 
@@ -12,6 +11,13 @@ This application will show all their Indonesian Ancestor Statues and information
 * [Contributing](#contributing)
 * [Credits](#credits)
 * [License](#license)
+
+## Built with
+- [Angular framework](https://angular.io/)
+
+## Features
+* [x] Obtain collection data from the Volkenkunde Museum
+* [ ] Use localstorage to store the collection data
 
 ## Installation
 First, clone the repository into a folder with `git clone https://github.com/lennartdeknikker/frontend-applications.git`
@@ -30,17 +36,19 @@ Run `ng generate component component-name` to generate a new component. You can 
 ### Build
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
 
+## Tests
+
 ### Running unit tests
 Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
 ### Running end-to-end tests
 Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
 
+## API Reference
+This application makes use of [SPARQL Queries](https://en.wikipedia.org/wiki/SPARQL) to get it's data.
+
 ## Contributing
 Please, feel free to contribute or open new issues.
-
-## References
-This application makes use of [SPARQL Queries](https://en.wikipedia.org/wiki/SPARQL) to get it's data.
 
 ## Credits
 Credits to our teachers [Laurens](https://github.com/Razpudding) and [Danny](https://github.com/dandevri) for helping out when needed and credits to all the help provided by the [Museum of Volkenkunde](https://www.volkenkunde.nl/en)
