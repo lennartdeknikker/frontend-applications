@@ -1,4 +1,6 @@
 # Indonesian Ancestor Statues Application
+[![Netlify Status](https://api.netlify.com/api/v1/badges/c4d10ccf-41ae-4b4f-8b1b-8bc978f6786d/deploy-status)](https://app.netlify.com/sites/frosty-bardeen-0cc821/deploys)
+
 This application is made as an assignment for the course Frontend Applications for [Communication & Multimedia Design](https://www.cmd-amsterdam.nl/english/) at the University of Applied Sciences in Amsterdam. In cooperation with the [Museum of Volkenkunde](https://www.volkenkunde.nl/en), the assignment entails building an application that makes use of their newly published collection database using [Angular](https://angular.io/) as a framework. 
 
 The application will show all their Indonesian Ancestor Statues and information about those. Check out the [wiki](https://github.com/lennartdeknikker/frontend-applications/wiki/Application-design) for more pictures of the initial product design and additional information on the building process and featured components.
