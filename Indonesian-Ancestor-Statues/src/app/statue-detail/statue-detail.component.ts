@@ -9,7 +9,7 @@ import { Statue } from '../statue';
 })
 export class StatueDetailComponent implements OnInit {
 
-  @Input() statue: Statue;;
+  @Input() statue: Statue;
 
   constructor() { }
 
