@@ -8,13 +8,17 @@ The application will show all their Indonesian Ancestor Statues and information 
 ![preview](https://github.com/lennartdeknikker/frontend-applications/blob/master/wiki-resources/design/ontwerp4.png)
 
 ## Table of contents
+* [Framework](#framework)
+* [features](#features)
 * [installation](#installation)
 * [Usage](#usage)
+* [Tests](#tests)
+* [References](#references)
 * [Contributing](#contributing)
 * [Credits](#credits)
 * [License](#license)
 
-## Built with
+## Framework
 - [Angular framework](https://angular.io/)
 
 ## Features
@@ -46,7 +50,7 @@ Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.
 ### Running end-to-end tests
 Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
 
-## API Reference
+## References
 This application makes use of [SPARQL Queries](https://en.wikipedia.org/wiki/SPARQL) to get it's data.
 
 ## Contributing
@@ -54,6 +58,12 @@ Please, feel free to contribute or open new issues.
 
 ## Credits
 Credits to our teachers [Laurens](https://github.com/Razpudding) and [Danny](https://github.com/dandevri) for helping out when needed and credits to all the help provided by the [Museum of Volkenkunde](https://www.volkenkunde.nl/en)
+
+Special thanks to our Angular team members
+- [Marc Kunst](https://github.com/MarcKunst)
+- [Mohamad Al Ghorani](https://github.com/MohamadAlGhorani)
+- [Patrick van Everdingen](https://github.com/patrick-ve)
+- [Marissa Verdonck](https://github.com/marissaverdonck)
 
 ## License
 Unless stated otherwise, code is [MIT](https://github.com/lennartdeknikker/frontend-applications/blob/master/LICENSE) © [lenn4RT](http://www.lenn4rt.com).
