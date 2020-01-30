@@ -13,7 +13,10 @@ The application will show all their Indonesian Ancestor Statues and information 
 * [installation](#installation)
 * [Usage](#usage)
 * [Tests](#tests)
+* [Screenshots](#screenshots)
 * [References](#references)
+* [Wiki](#wiki)
+* [Used data](#data)
 * [Contributing](#contributing)
 * [Credits](#credits)
 * [License](#license)
@@ -31,7 +34,9 @@ Then, run `npm install -g @angular/cli` to install the Angular CLI
 lastly, run `npm install` to install the required NPM Packages
 
 ## Usage
-Run `npm start` to open the application in a new browser window.
+1. clone this repo using `git clone https://github.com/lennartdeknikker/frontend-data.git`
+2. Use `npm install` to install dependencies.
+3. You can get the application running using `npm run dev`. or build the application using `npm run build`.
 
 ### Development server
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
@@ -50,8 +55,26 @@ Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.
 ### Running end-to-end tests
 Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
 
+## Screenshots
+Users can browse the map of Indonesia, search for ancestor statues and see those projected on the map.
+![screenshot1](https://github.com/lennartdeknikker/frontend-applications/blob/master/wiki-resources/design/ontwerp.png)
+To get more detail on certain objects, users can click the different aresas to see what specific objects are found there.
+
+![screenshot7](https://github.com/lennartdeknikker/frontend-applications/blob/master/wiki-resources/design/ontwerp4.png)
+
+To see more screenshots showing all functionalities in depth, check out [this page](https://github.com/lennartdeknikker/frontend-applications/wiki/Screenshots) in the wiki.
+
 ## References
-This application makes use of [SPARQL Queries](https://en.wikipedia.org/wiki/SPARQL) to get it's data.
+- This application makes use of [SPARQL Queries](https://en.wikipedia.org/wiki/SPARQL) to get it's data.
+- [JavaScript](https://developer.mozilla.org/en-US/docs/Web/javascript)
+- [scss](https://sass-lang.com/)
+- [Angular framework](https://angular.io/)
+
+## Wiki
+The whole process of building the application and more in depth information on the queries that obtain the used data is found in [the wiki](https://github.com/lennartdeknikker/frontend-applications/wiki).
+
+## Data
+The data used in this application is provided by the [Museum Volkenkunde](https://www.volkenkunde.nl/). They recently published their collection data. The data is obtained using [SPARQL](https://en.wikipedia.org/wiki/SPARQL) queries. The query used in this example is part of the code and can easily be changed to obtain different data to plot on the map. More information on the used data and queries can be found in the [wiki](https://github.com/lennartdeknikker/frontend-applications/wiki/)
 
 ## Contributing
 Please, feel free to contribute or open new issues.
