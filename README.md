@@ -22,7 +22,7 @@ The application will show all their Indonesian Ancestor Statues and information 
 * [License](#license)
 
 ## Framework
-- [Angular framework](https://angular.io/)
+I used the [Angular framework](https://angular.io/) to build this application. If you want to read more about the building process or my experience using this particular framework in comparison to other ones, please check out [the wiki](https://github.com/lennartdeknikker/frontend-applications/wiki).
 
 ## Features
 * [x] Obtain collection data from the Volkenkunde Museum
